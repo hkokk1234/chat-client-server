@@ -1,10 +1,10 @@
-# Chat ClientβServer
+# Chat Client Server
 
 A simple multi-client chat application built with **Java**, **TCP sockets**, and **Swing**. A central server accepts client connections and broadcasts messages to every connected client through a desktop graphical interface.
 
 ## Features
 
-- Clientβserver communication over TCP
+- Client server communication over TCP
 - Support for multiple simultaneous clients
 - Real-time message broadcasting
 - Separate Swing interfaces for the server and clients
@@ -23,11 +23,11 @@ A simple multi-client chat application built with **Java**, **TCP sockets**, and
 
 ```text
 chatapp/
-βββ src/
-β   βββ ChatServer.java
-β   βββ ChatClient.java
-βββ bin/                    # Compiled class files
-βββ README.md
+ src/
+ ChatServer.java
+ChatClient.java
+ bin/                    # Compiled class files
+README.md
 ```
 
 ## How It Works
